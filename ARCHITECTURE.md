@@ -20,9 +20,9 @@
 ```mermaid
 flowchart TD
     A[MetricsEngine.Supervisor] --> B[Registry :metrics_engine_registry]
-    A --> C[MetricsEngine.WorkerSupervisor (DynamicSupervisor)]
+    A --> C["MetricsEngine.WorkerSupervisor (DynamicSupervisor)"]
     A --> D[MetricsEngine.EtsStarter]
-    C -.spawn.-> E[MetricsEngine.Worker (per metric+window)]
+    C -.spawn.-> E["MetricsEngine.Worker (per metric+window)"]
 ```
 
 ## Rolling Windows
