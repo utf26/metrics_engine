@@ -1,0 +1,29 @@
+# Mix / OTP
+/_build/
+/deps/
+/.exunit/
+/.fetch
+erl_crash.dump
+
+# Dialyzer
+*.plt
+*.plt.hash
+/priv/plts/
+
+# Editors / IDEs
+/.elixir_ls/
+/.idea/
+/vscode/
+/.vscode/
+*.swp
+*~
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+/log/
+tmp/
+*.log
